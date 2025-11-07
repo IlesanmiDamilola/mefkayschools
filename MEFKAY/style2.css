@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%), url(1.jpg);
+    font-size: 14px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box{
+    background-color: #transparent;
+    display: flex;
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px ;
+    background-color: transparent;
+}
+.contact-right{
+    flex-basis:40%;
+    padding: 40px ;
+    background: #000080;
+    color:#fff;
+}
+h1{
+    margin-bottom: 10px;
+}
+
+.container p{
+    margin-bottom: 40px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+
+input[type=submit]{
+    background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.home{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
